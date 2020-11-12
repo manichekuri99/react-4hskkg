@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Pannel from './PannelComponent';
 
 
 class Main extends Component {
@@ -6,8 +7,9 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <div className = "container">
-        </div>
+        <Pannel />
+        <Pannel />
+        <Pannel />
       </div>
     );
   }
